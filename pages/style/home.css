@@ -1,0 +1,222 @@
+body {
+    background-color: rgb(49, 49, 49);
+    font-family: Arial, Helvetica, sans-serif, Helvetica Neue;
+    margin: 0;
+    padding: 0px;
+}
+header {
+   
+   background-image: url("../Images/Nav_Image/Index-page-img/Code.jpg");
+   background-position: center;
+   background-size: 100%;
+   background-repeat: none;
+    margin: 0px;
+    height: 300px;
+    padding: 20px;
+    color :white
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 0px 5px 0px;
+    border-radius: 5px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+li:first-child {
+    margin: 5px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a {
+
+    color: rgb(255, 255, 255);
+
+}
+
+section.feature-box.Random {
+    width: 100%;
+    margin: 1px;
+    color: rgb(54, 54, 54);
+    background-color: rgb(173, 173, 173);
+    
+}
+section {
+    color: rgb(255, 255, 255);
+}
+header .logo a {
+    background-image: url("../../Icon.PNG");
+    background-size: 90px;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 80px;
+    height: 80px; 
+    text-indent: -999999999px;
+    display: inline-block;
+    opacity: 100%;
+}
+header .mobile {
+    display: none;
+}
+.profile {
+    opacity: 90%;
+    margin-left: 0px;
+    height: 550px;
+    
+}
+.profile figure img {
+    width: 268px;
+}
+.caption1 {
+    text-shadow: black;
+    color: rgb(255, 255, 255);
+
+}
+img {
+    margin-top: 20px;
+}
+.AboutLink {
+    margin-top: 200px;
+    text-align: right;
+}
+.clicklink {
+    font-size: 17px;
+    list-style: none;
+
+}
+.ArticleInfo {
+    margin-left: 200px;
+    margin-top: 50px;
+    text-align: left;
+}
+.wfguieiqow {
+    text-indent: -999999999999999999px;
+}
+footer {
+    margin-top: 100px;
+    padding: 35px;
+    height: 400px;
+    background-color: rgb(39, 39, 39);
+    color :white   
+}
+.WebVer {
+    text-align: right;
+    color: white;
+}
+.borderprofiletop {
+    margin-top: 0px;
+}
+/*Display Maching */
+@media screen and (min-width: 400px) and (max-width: 620px) {
+    header {
+        height: 200px;
+    }
+    header .mobile {
+        display: inline-block;
+        font-size: 20px;
+        margin: 3px;
+    }
+    header .desktop {
+        display: none;
+    }
+    .profile figure img {
+        width: 180px;
+    }
+    .ArticleInfo {
+        margin: 85px;
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 325px) and (max-width: 399px) {
+    header {
+        height: 150px;
+    }
+    header .logo a {
+        width: 70px;
+        height: 70px;
+        background-size: 80px;
+    }
+    header .mobile {
+        display: inline-block;
+        font-size: 17px;
+        margin: 1px; 
+        font-weight: 300;
+    }
+    header .desktop {
+        display: none;
+    }
+    .profile figure img {
+        height: 150px;
+        width: 168px;
+    }
+    .profile .caption1 {
+        font-size: 15px;
+    }
+    .ArticleInfo {
+        margin-top: 30px;
+        margin-left: 70px;
+        font-size: 15px;
+    }
+    .clicklink {
+        font-size: 15px;
+    }
+    .AboutLink {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 310px) and (max-width: 324px) {
+    header {
+        height: 85px;
+    }
+    header .logo a {
+        width: 50px;
+        height: 50px;
+        background-size: 50px;
+    }
+    header .desktop {
+        display: none;
+    }
+    header .mobile {
+        display: inline-block;
+        font-size: 15px;
+        margin: 1px; 
+        font-weight: 300;
+    }
+    .borderprofiletop {
+        margin-top: 0px;
+    }
+    .profile figure img {
+        height: 170px;
+        width: 100x;
+        margin-left: -30px;
+    }
+    .profile .caption1 {
+        font-size: 13px;
+    }
+    .profile figure img {
+        width: 178px;
+        margin-left: 10px;
+    }
+    .ArticleInfo {
+        margin-top: 10px;
+        margin-left: 40px;
+        font-size: 13px;
+    }
+        .AboutLink {
+        font-size: 14px;
+        margin-top: -20px;
+    }
+    footer {
+        height: 250px;
+    }
+}

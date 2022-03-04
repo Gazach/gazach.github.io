@@ -1,0 +1,5 @@
+1.5
+-about page fixed
+-about page new image
+-about page responsive
+-home/index responsive fix
